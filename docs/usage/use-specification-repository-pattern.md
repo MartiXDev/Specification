@@ -7,7 +7,7 @@ nav_order: 3
 
 # How to use Specifications with the Repository Pattern
 
-If you're inclined to use the [Repository Pattern](https://deviq.com/design-patterns/repository-pattern), the specifications can help eliminate the common pain points and reduce the number of methods in the repositories. This library exposes an `ISpecificationEvaluator` evaluator implementation for EF Core and EF 6, which can be utilized to build the desired queries. The default evaluator implementation is a stateless object, and a singleton instance can be retrieved through `SpecificationEvaluator.Default`. 
+If you're inclined to use the [Repository Pattern](https://deviq.com/design-patterns/repository-pattern), the specifications can help eliminate the common pain points and reduce the number of methods in the repositories. This library exposes an `ISpecificationEvaluator` evaluator implementation for EF Core and EF 6, which can be utilized to build the desired queries. The default evaluator implementation is a stateless object, and a singleton instance can be retrieved through `SpecificationEvaluator.Default`.
 
 Let's assume we have the following entity.
 
@@ -76,4 +76,4 @@ var aliveAvengerHeroes = _repository.ListHeroes(new AliveAvengerHeroSpec());
 
 For more information on the Repository Pattern and the sample generic implementation included in this package, see the [How to use the Built In Abstract Repository](./use-built-in-abstract-repository.md) tutorial.
 
-You can also see [this sample app in the Specification repo](https://github.com/ardalis/Specification/blob/main/samples/Ardalis.Sample.App3/) that shows how to define a custom RepositoryBase, separate IRepository and IReadRepository interfaces, and pagination constructs.
+You can also see [this sample app in the Specification repo](https://github.com/ardalis/Specification/blob/main/samples/MartiX.Sample.App3/) that shows how to define a custom RepositoryBase, separate IRepository and IReadRepository interfaces, and pagination constructs.

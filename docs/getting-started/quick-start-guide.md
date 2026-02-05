@@ -5,15 +5,15 @@ parent: Getting Started
 nav_order: 1
 ---
 
-# Ardalis.Specification Quick Start Guide
+# MartiX.Specification Quick Start Guide
 
 1. Install Nuget-Package(s)
 
-   a. Always required: [Ardalis.Specification](https://www.nuget.org/packages/Ardalis.Specification/)
+   a. Always required: [MartiX.Specification](https://www.nuget.org/packages/MartiX.Specification/)
 
-   b. If you want to use it with EF Core also install the package [Ardalis.Specification.EntityFrameworkCore](https://www.nuget.org/packages/Ardalis.Specification.EntityFrameworkCore/)
+   b. If you want to use it with EF Core also install the package [MartiX.Specification.EntityFrameworkCore](https://www.nuget.org/packages/MartiX.Specification.EntityFrameworkCore/)
 
-   c. Alternatively, if you want to use it with EF6 also install the package [Ardalis.Specification.EntityFramework6](https://www.nuget.org/packages/Ardalis.Specification.EntityFramework6/)
+   c. Alternatively, if you want to use it with EF6 also install the package [MartiX.Specification.EntityFramework6](https://www.nuget.org/packages/MartiX.Specification.EntityFramework6/)
    
 2. Create a specification by inheriting from `Specification<T>`.
 

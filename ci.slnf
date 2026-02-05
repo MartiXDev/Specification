@@ -1,13 +1,13 @@
 {
   "solution": {
-    "path": "Ardalis.Specification.sln",
+    "path": "MartiX.Specification.sln",
     "projects": [
-      "src\\Ardalis.Specification.EntityFramework6\\Ardalis.Specification.EntityFramework6.csproj",
-      "tests\\Ardalis.Specification.EntityFramework6.Tests\\Ardalis.Specification.EntityFramework6.Tests.csproj",
-      "src\\Ardalis.Specification.EntityFrameworkCore\\Ardalis.Specification.EntityFrameworkCore.csproj",
-      "tests\\Ardalis.Specification.EntityFrameworkCore.Tests\\Ardalis.Specification.EntityFrameworkCore.Tests.csproj",
-      "src\\Ardalis.Specification\\Ardalis.Specification.csproj",
-      "tests\\Ardalis.Specification.Tests\\Ardalis.Specification.Tests.csproj"
+      "src\\MartiX.Specification.EntityFramework6\\MartiX.Specification.EntityFramework6.csproj",
+      "tests\\MartiX.Specification.EntityFramework6.Tests\\MartiX.Specification.EntityFramework6.Tests.csproj",
+      "src\\MartiX.Specification.EntityFrameworkCore\\MartiX.Specification.EntityFrameworkCore.csproj",
+      "tests\\MartiX.Specification.EntityFrameworkCore.Tests\\MartiX.Specification.EntityFrameworkCore.Tests.csproj",
+      "src\\MartiX.Specification\\MartiX.Specification.csproj",
+      "tests\\MartiX.Specification.Tests\\MartiX.Specification.Tests.csproj"
     ]
   }
 }

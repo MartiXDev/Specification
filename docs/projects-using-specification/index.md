@@ -5,7 +5,7 @@ nav_order: 7
 has_children: true
 ---
 
-# Projects using Ardalis.Specification
+# Projects using MartiX.Specification
 
 ## Contents (to do)
 

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+
+    <AssemblyName>MartiX.Specification</AssemblyName>
+    <PackageId>MartiX.Specification</PackageId>
+    <Title>MartiX.Specification</Title>
+    <Description>A simple package with a base Specification class, for use in creating queries that
+      work with Repository types.</Description>
+    <Summary>A simple package with a base Specification class, for use in creating queries that work
+      with Repository types.</Summary>
+
+    <Version>9.3.1</Version>
+    <PackageTags>spec;specification;repository;ddd</PackageTags>
+    <PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/ardalis/Specification/issues/427
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="MartiX.Specification.EntityFrameworkCore" />
+    <InternalsVisibleTo Include="MartiX.Specification.Tests" />
+    <InternalsVisibleTo Include="MartiX.Specification.EntityFrameworkCore.Tests" />
+  </ItemGroup>
+
+</Project>

@@ -18,16 +18,16 @@ The main benefits offered by the specification pattern in general and this packa
 - Provide good names to common queries to facilitate reuse and elevate language used to describe the app's behavior
 - Eliminate common pain points of Repository pattern (hiding ORM data shaping features, requiring many custom query methods)
 
-## Installing Ardalis.Specification
+## Installing MartiX.Specification
 
-Install Ardalis.Specification from NuGet. The latest version is available here:
+Install MartiX.Specification from NuGet. The latest version is available here:
 
-[https://www.nuget.org/packages/Ardalis.Specification/](https://www.nuget.org/packages/Ardalis.Specification/)
+[https://www.nuget.org/packages/MartiX.Specification/](https://www.nuget.org/packages/MartiX.Specification/)
 
 Alternately, add it to a project using this CLI command:
 
 ```powershell
-dotnet add package Ardalis.Specification
+dotnet add package MartiX.Specification
 ```
 
 ## Getting Started

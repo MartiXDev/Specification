@@ -1,7 +1,7 @@
 
-[![NuGet](https://img.shields.io/nuget/v/Ardalis.Specification.svg)](https://www.nuget.org/packages/Ardalis.Specification)
+[![NuGet](https://img.shields.io/nuget/v/MartiX.Specification.svg)](https://www.nuget.org/packages/MartiX.Specification)
 [![Actions Status](https://github.com/ardalis/Specification/actions/workflows/ci.yml/badge.svg)](https://github.com/ardalis/Specification/actions/workflows/ci.yml)
-[![Generic badge](https://img.shields.io/badge/Documentation-Ardalis.Specification-Green.svg)](https://ardalis.github.io/Specification/)
+[![Generic badge](https://img.shields.io/badge/Documentation-MartiX.Specification-Green.svg)](https://ardalis.github.io/Specification/)
 
 <a href="https://twitter.com/intent/follow?screen_name=ardalis">
     <img src="https://img.shields.io/twitter/follow/ardalis.svg?label=Follow%20@ardalis" alt="Follow @ardalis" />
@@ -55,7 +55,7 @@ var customers = await _repository.ListAsync(spec, cancellationToken);
 ```
 Specifications should be defined in an easily-discovered location in the application, so developers can easily reuse them. The use of this pattern helps to eliminate many commonly duplicated lambda expressions in applications, reducing bugs associated with this duplication.
 
-We're shipping a built-in repository implementation [RepositoryBase](https://github.com/ardalis/Specification/blob/main/src/Ardalis.Specification.EntityFrameworkCore/RepositoryBaseOfT.cs), ready to be consumed in your apps. You can use it as a reference and create your own custom repository implementation.
+We're shipping a built-in repository implementation [RepositoryBase](https://github.com/ardalis/Specification/blob/main/src/MartiX.Specification.EntityFrameworkCore/RepositoryBaseOfT.cs), ready to be consumed in your apps. You can use it as a reference and create your own custom repository implementation.
 
 ## Reference
 
