@@ -1,26 +1,26 @@
 name: Build and Test
 
-on: 
+on:
   workflow_dispatch:
   pull_request:
     branches:
       - main
     paths:
-      - 'src/**'
-      - 'tests/**'
+      - "src/**"
+      - "tests/**"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Setup dotnet
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 9.x
-    - name: Build
-      run: dotnet build ci.slnf --configuration Release
-    - name: Test
-      run: dotnet test ci.slnf --configuration Release --no-build --no-restore --framework net9.0
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.x
+      - name: Build
+        run: dotnet build ci.slnf --configuration Release
+      - name: Test
+        run: dotnet test ci.slnf --configuration Release --no-build --no-restore --framework net10.0

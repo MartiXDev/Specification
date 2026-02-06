@@ -14,7 +14,7 @@ nav_order: 1
    b. If you want to use it with EF Core also install the package [MartiX.Specification.EntityFrameworkCore](https://www.nuget.org/packages/MartiX.Specification.EntityFrameworkCore/)
 
    c. Alternatively, if you want to use it with EF6 also install the package [MartiX.Specification.EntityFramework6](https://www.nuget.org/packages/MartiX.Specification.EntityFramework6/)
-   
+
 2. Create a specification by inheriting from `Specification<T>`.
 
    ```csharp
@@ -26,7 +26,7 @@ nav_order: 1
         }
     }
    ```
-   
+
 3. Apply a specification to a `DbSet` or `IQueryable` source.
 
    ```csharp
@@ -42,4 +42,3 @@ nav_order: 1
     var spec = new CustomerByLastNameSpec("Smith");
     var customers = await _customerRepo.ListAsync(spec);
    ```
-   
